@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Gmail - Test Suit]">
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <listeners>
+    <listener class-name="com.utility.CustomReporter"/>
+    <listener class-name="com.utility.CustomReporterListener"/>
+  </listeners>
+  <test verbose="10" name="TC_3: Checkout logged In(failed)">
+    <classes>
+      <class name="com.index.Checkoutloggedin_Index">
+        <methods>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="CheckoutloggedIn"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.index.Checkoutloggedin_Index -->
+    </classes>
+  </test> <!-- TC_3: Checkout logged In(failed) -->
+</suite> <!-- Failed suite [Gmail - Test Suit] -->

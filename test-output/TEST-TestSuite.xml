@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="537.593" tests="2" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0\jre\bin"/>
+    <property name="java.vm.version" value="25.0-b55"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Workspace\Promedxpress"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Workspace\Promedxpress"/>
+    <property name="java.runtime.version" value="1.8.0-ea-b113"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\IBALL~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4917702863707897763.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Software\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0\bin;C:\Users\Public\Downloads\apache-maven-3.5.2\bin;C:\Program Files\Git\cmd;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\i ball"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="i ball"/>
+    <property name="java.class.path" value="D:\Softwares\apache-maven-3.5.2\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0-ea"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Softwares\apache-maven-3.5.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="ValidatePaymentMethod" classname="com.index.ValidatePaymentMethod_Index" time="0">
+    <skipped/>
+    <system-out><![CDATA[...
+... TestNG 6.13.1 by Cédric Beust (cedric@beust.com)
+...
+
+TestData URL :: https://promed-dev-scripco-refapp.accorin.us/
+Current Window Handle ID : --->>CDwindow-AC55B0E7F78529F113FF8B0BD90D1F94
+Current Xml Suite is:---->Promedxpress
+Test Scenario 11: Validate Payment Method[Credit Card, Paypal & Open Account]
+Time and Date of Test Execution2018-10-15  12:09:33
+Validate Payment Method======>Credit Card</br>
+Step 1 : Open URL is: https://promed-dev-scripco-refapp.accorin.us/</a>
+===============>Page URL is Open </br>
+To Verify that Home Page is Displayed</br>
+Step :2 Open the Application</br>
+Validate Payment Method======>Paypal</br>
+Step 3 : Open URL is: https://promed-dev-scripco-refapp.accorin.us/</a>
+To Verify that Home Page is Displayed</br>
+Step :4 Open the Application</br>
+Welcome Msg is Displayed ====>: WELCOME TO OUR NEW SITE
+Pass
+ <Strong><font color=#008000><b> &#10004 PASS</b></font></strong>
+Step :5 Click on I User Logo </br>
+Step :6 Click on Create New Account </br>
+Verify that without filling details and click on Create New Account a Error Message Appeared</br>
+Without Entering Details and Click on Create New Account Button===>This is a required field.
+Pass
+ <Strong><font color=#008000><b> &#10004 PASS</b></font></strong>
+Step :7 Click on I Uer Logo </br>
+Step :8 Click on Create New Account </br>
+Step :9 Enter the Details under Create New Account and click on create new Account </br>
+Enter First Name :===> Paul
+Enter Last Name :===> williams
+Click on Sign Up For Newsletter Check Box
+Type the graudation date===>09/11/2015
+prashantp
+==============
+accorin.com
+Type the email id ===>prashantp+8908280@accorin.com</br>
+Type the password ===>baps@200
+Type the same password under confirm password ===>baps@200
+After filling all the details click on Create A Account
+Show the Confirmation Message after Formed is Filled</br>
+Confirmation Message is Displayed===>Thank you for registering with ProMed Xpress Products.</br>
+Pass
+ <Strong><font color=#008000><b> &#10004 PASS</b></font></strong>
+User Name Shoud Display===>Welcome, Paul!
+Pass
+ <Strong><font color=#008000><b> &#10004 PASS</b></font></strong>
+Step :10 Click on I Uer Logo </br>
+Step :11 Click on Logout option </br>
+Step :12 Mouse Over to Mobility in Home Page </br>
+Step :13 Click on Geri_Chairs under Mobility </br>
+Step :14 Click on Add to Cart Button </br>
+Step :15 Click on My Cart Option </br>
+ Verify that the Product which has been Selected is showing under My Cart Option
+Item Selected in the Page Matches Item in the Cart : Double Sided Security Bed Rails 18"X20"
+
+=========>Converting Double to Integer<=======
+=========>Converting Double to Integer<=======
+Item Selected in the Page : Double Sided Security Bed Rails 18"X20"
+
+=========>Converting Double to Integer<=======
+Comparing the two Items
+Item Selected and Item in My Cart Matches
+Pass
+ <Strong><font color=#008000><b> &#10004 PASS</b></font></strong>
+Price Comparing
+Item Selected and Item in My Cart Price Matches
+Pass
+ <Strong><font color=#008000><b> &#10004 PASS</b></font></strong>
+Item Quantity Verified
+Total Quantity of Product is Displayed : 1
+Pass
+ <Strong><font color=#008000><b> &#10004 PASS</b></font></strong>
+Step :16 Click on CheckOut Option under My Cart</br>
+Filling the Shipping Information of the Customer</br>
+Step :17 Type the Shipping Address where the Customer want to Send his Order </br>
+Step :18 Address_Validation_PopUp </br>
+Address Validation PopUp</br>
+Clicked on : origin_address
+Click on Continue Button
+Address Pop Up Is Displayed
+Step :19 Select Shipping Customer </br>
+Select the PayPal Payment Mode and Enter Valid Credentials</br>
+Step :20 Select Valid Credentials in PayPal </br>
+Retrying test Execution: ValidatePaymentMethod with status FAILURE for the 1 time(s).
+]]></system-out>
+    <system-err><![CDATA[Oct 15, 2018 12:09:12 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 15, 2018 12:09:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Time and Date of Test Execution2018-10-15  12:09:33
+Welcome Msg is Displayed ====>: WELCOME TO OUR NEW SITE
+Without Entering Details and Click on Create New Account Button===>This is a required field.
+Enter First Name :===> Paul
+Enter Last Name :===> williams
+Click on Sign Up For Newsletter Check Box
+Type the graudation date===>09/11/2015
+Type the email id ===>prashantp+8908280@accorin.com
+Type the password ===>baps@200
+Type the same password under confirm password ===>baps@200
+After filling all the details click on Create A Account
+Confirmation Message is Displayed===>Thank you for registering with ProMed Xpress Products.
+User Name Shoud Display===>Welcome, Paul!
+Item Selected in the Page Matches Item in the Cart : Double Sided Security Bed Rails 18"X20"
+Converting String to Int of Original Price : 132.28
+Change in Price :132.28
+Item Selected in the Page : Double Sided Security Bed Rails 18"X20"
+Converting String to Int of Original Price : 132.28
+Change in Price :132.28
+Item Selected and Item in My Cart Matches
+Item Selected and Item in My Cart Price Matches
+Total Quantity of Product is Displayed : 1
+Enter Email Id of Customer: prashantp+8908280@accorin.com
+Enter Email Id of Customer: baps@200
+Click on Login Button After entering email id and password
+Enter Company Name: testCompany
+Enter Street Address: 360 Vetarans Parkway, Suite 115
+Enter City name: Bolingbrook
+Select the State from the Drop Down :==> Illinois
+Enter the Pin Code of the State : 60440
+Select the Country from the Drop Down :==> United States
+Enter the Phone Number of Customer : 123456789
+Address Validation PopUp
+Address Pop Up Is Displayed
+Click on Address Validation Pop Up Window
+Click on Ground Standard under Choose a Shipping Option
+After Filling all the detail Click on Next Button
+Click on Pay Pal Radio Button
+Click on continue to paypal option
+--------------------------------------------------CDwindow-AC55B0E7F78529F113FF8B0BD90D1F94---------------------------------------------
+----CDwindow-AC55B0E7F78529F113FF8B0BD90D1F94-----
+----CDwindow-5B13EB85BBBFF9DDA1D5A023F3028070-----
+Login Button Found And Clicked
+Enter the Valid Paypal email id===> 31julymm@mailinator.com</br>
+Enter the Valid Paypal Password===>Baps@123</br>
+After entering Valid Email ID and Password Click on Login Button
+Click on Continue Button
+]]></system-err>
+  </testcase>
+  <testcase name="ValidatePaymentMethod" classname="com.index.ValidatePaymentMethod_Index" time="537.593"/>
+</testsuite>

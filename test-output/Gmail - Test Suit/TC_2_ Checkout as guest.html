@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  TC_2: Checkout as guest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TC_2: Checkout as guest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 07 17:26:51 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>348 seconds (348876 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.index.Checkout_as_Guest_Index.Check_out_as_guest()'><b>Check_out_as_guest</b><br>Test class: com.index.Checkout_as_Guest_Index<br/>
+<a href="#Output-541698497" onClick='toggleBox("Output-541698497", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-541698497" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-541698497">
+<strong> <h3 style="color:Blue"> Step 1 : Open URL is: https://promedxpress-qa.scripco.com/</a></h3> </strong><br/>
+<strong> <h3 style="color:Blue"> To Verify that Home Page is Displayed</br></br></h3> </strong><br/>
+<br><strong>Step :2 Open the Application</br></br></strong></br><br/>
+<strong> <h3 style="color:Blue"> Welcome Msg is Displayed ====>: WELCOME TO OUR NEW SITE</h3> </strong><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+===>Home page is opened and Logo is Matched</br></br><br/>
+<br><strong>Step :3 Mouse Over to Mobility in Home Page </br></br></strong></br><br/>
+<br><strong>Step :4 Click on Geri_Chairs under Mobility </br></br></strong></br><br/>
+<br><strong>Step :5 Click on Add to Cart Button </br></br></strong></br><br/>
+<br><strong>Step :6 Click on My Cart Option </br></br></strong></br><br/>
+<strong> <h3 style="color:Blue">  Verify that the Product which has been Selected is showing under My Cart Option</h3> </strong><br/>
+<br><strong>Item Selected in the Page Matches Item in the Cart : Double Sided Security Bed Rails 18"X20"</strong></br><br/>
+Converting String to Int of Original Price : 132.28<br/>
+<br><strong>=========>Converting Double to Integer<=======</strong></br><br/>
+<br><strong>Item Selected in the Page : Double Sided Security Bed Rails 18"X20"</strong></br><br/>
+Converting String to Int of Original Price : 132.28<br/>
+<strong> <h3 style="color:Blue"> Comparing the two Items</h3> </strong><br/>
+<br><strong>Item Selected and Item in My Cart does not Matches</strong></br><br/>
+<br></br><br><Strong><font color=#FF0000><b>&#10008 FAIL</b></font></strong></br><br/>
+<br> <b>Please look to the screenshot - </b><br/>
+<br><Strong><font color=#FF0000>--Failed</font></strong><br/>
+<a href='../test-output/screenshots/0907172832887Check_out_as_guest.png' target='_new'>0907172832887Check_out_as_guest.png</a><br/>
+<strong> <h3 style="color:Blue"> Price Comparing</h3> </strong><br/>
+<br><strong>Item Selected and Item in My Cart Price Matches</strong></br><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+===>Product and Price Verified in My Cart</br></br><br/>
+<strong> <h3 style="color:Blue"> Item Quantity Verified</h3> </strong><br/>
+<br><strong>Total Quantity of Product is Displayed : 1</strong></br><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+===>Product Item is Same as Selected</br></br><br/>
+<br><strong>Step :7 Click on CheckOut Option under My Cart </br></br></strong></br><br/>
+<strong> <h3 style="color:Blue"> Filling the Shipping Information of the Customer</br></br></h3> </strong><br/>
+<br><strong>Step :8 Type the Shipping Address where the Customer want to Send his Order </br></br></strong></br><br/>
+Enter Email Id of Customer====>: harish288@mailinator.com</br></br><br/>
+Enter First Name of Customer====>: test288</br></br><br/>
+Enter Last Name of Customer====>: test288</br></br><br/>
+Enter Company Name====>: test</br></br><br/>
+Enter Street Address====>: 360 Vetarans Parkway, Suite 115</br></br><br/>
+Enter City name====>:Bolingbrook</br></br><br/>
+Select the State from the Drop Down :==> Illinois </br></br><br/>
+Enter the Pin Code of the State: 60440</br></br><br/>
+Select the Country from the Drop Down :==> United States </br></br><br/>
+<strong> <h3 style="color:Blue"> Address_Validation_PopUp</br></br></h3> </strong><br/>
+<br><strong>Step :9 Address_Validation_PopUp </br></br></strong></br><br/>
+<strong> <h3 style="color:Blue"> Address Validation PopUp</br></br></h3> </strong><br/>
+<br><strong>Clicked on : candidate_0</strong></br><br/>
+<br><strong>Address Pop Up Is Displayed</strong></br><br/>
+Enter the Phone Number of Customer: 1234567288</br></br><br/>
+<br><strong>Clicked on : candidate_0</strong></br><br/>
+<br><strong>Address Pop Up Is Displayed</strong></br><br/>
+Click on Address Validation Pop Up Window</br></br><br/>
+<strong> <h3 style="color:Blue"> Select Shipping Customer</br></br></h3> </strong><br/>
+<br><strong>Step :10 Select Shipping Customer </br></br></strong></br><br/>
+Click on Ground Standard under Choose a Shipping Option</br></br><br/>
+After Filling all the detail Click on Next Button</br></br><br/>
+<br><strong>Step :11 Go to Payment mode and Click on Credit Card radio button </br></br></strong></br><br/>
+<strong> <h3 style="color:Blue"> Filling the Credit Card Details of the Customer</br></br></h3> </strong><br/>
+<br><strong>Step :12 Fill the Credit Card Details and Click on Place Order </br></br></strong></br><br/>
+<br><strong>Credit Card Number ====>:4444333322221111</br></br></strong></br><br/>
+<br><strong>Expiration Date Month and Year ====>:04 / 2020</br></br></strong></br><br/>
+<br><strong>Cvv Number ====>:123</br></br></strong></br><br/>
+<strong> <h3 style="color:Blue"> Verify that Order has been Confirmed and A message has been Displayed</h3> </strong><br/>
+<br><strong>Confirmation Message is Displayed :YOUR ORDER HAS BEEN PLACED</strong></br><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+<br><strong>Email Confirmation has Been Sent :An email confirmation is on its way to harish288@mailinator.com</strong></br><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+<br><strong>Order Number is Displayed :Order #4000000299</strong></br><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+===>Item is Placed and Shown in the Place</br></br><br/>
+</div>
+</td>
+<td></td>
+<td>297</td>
+<td>com.index.Checkout_as_Guest_Index@4bb4de6a</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Promedxpress]">
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <listeners>
+    <listener class-name="com.utility.CustomReporter"/>
+    <listener class-name="com.utility.CustomReporterListener"/>
+    <listener class-name="com.utility.RetryTestListener"/>
+    <listener class-name="com.utility.RetryConterManagerListener"/>
+  </listeners>
+  <test verbose="10" name="TC_11: Validate Payment Method  (failed)">
+    <classes>
+      <class name="com.index.ValidatePaymentMethod_Index">
+        <methods>
+          <include name="ValidatePaymentMethod"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.index.ValidatePaymentMethod_Index -->
+    </classes>
+  </test> <!-- TC_11: Validate Payment Method  (failed) -->
+</suite> <!-- Failed suite [Promedxpress] -->

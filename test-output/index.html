@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Promedxpress">
+              <span class="suite-name border-failed">Promedxpress</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Promedxpress">
+                    <span>D:\Workspace\Promedxpress\build\index.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Promedxpress">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Promedxpress">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Promedxpress">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Promedxpress">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Promedxpress">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Promedxpress">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 1 failed,  1 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Promedxpress" class="hide-methods failed suite-Promedxpress"> (hide)</a> <!-- hide-methods failed suite-Promedxpress -->
+                      <a href="#" panel-name="suite-Promedxpress" class="show-methods failed suite-Promedxpress"> (show)</a> <!-- show-methods failed suite-Promedxpress -->
+                    </span>
+                    <div class="method-list-content failed suite-Promedxpress">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Promedxpress" title="com.index.ValidatePaymentMethod_Index" hash-for-method="ValidatePaymentMethod">ValidatePaymentMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Promedxpress -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Promedxpress" class="hide-methods skipped suite-Promedxpress"> (hide)</a> <!-- hide-methods skipped suite-Promedxpress -->
+                      <a href="#" panel-name="suite-Promedxpress" class="show-methods skipped suite-Promedxpress"> (show)</a> <!-- show-methods skipped suite-Promedxpress -->
+                    </span>
+                    <div class="method-list-content skipped suite-Promedxpress">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Promedxpress" title="com.index.ValidatePaymentMethod_Index" hash-for-method="ValidatePaymentMethod">ValidatePaymentMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Promedxpress -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Promedxpress" class="panel Promedxpress">
+          <div class="suite-Promedxpress-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.index.ValidatePaymentMethod_Index</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatePaymentMethod">
+                  </a> <!-- ValidatePaymentMethod -->
+                  <span class="method-name">ValidatePaymentMethod</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;iball-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0-ea&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\IBALL~1\AppData\Local\Temp\scoped_dir4824_26101}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=70.0.3538.67, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1084daf6de2e69b9fabb26713fb7a2f7
+Command duration or timeout: 0 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:406)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:485)
+	at com.init.Common.jsClick(Common.java:623)
+	at com.indexpage.ValidatePaymentMethod_GeneralindexPage.Shipping_Customernew(ValidatePaymentMethod_GeneralindexPage.java:1195)
+	at com.index.ValidatePaymentMethod_Index.ValidatePaymentMethod(ValidatePaymentMethod_Index.java:725)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:829)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1000)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	... 34 more
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;iball-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0-ea&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\IBALL~1\AppData\Local\Temp\scoped_dir4824_26101}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=70.0.3538.67, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1084daf6de2e69b9fabb26713fb7a2f7
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;IBALL-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0-ea&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:577)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy1.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:217)
+	at org.openqa.selenium.remote.server.handler.ExecuteScript.call(ExecuteScript.java:54)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Promedxpress-class-failed -->
+          <div class="suite-Promedxpress-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.index.ValidatePaymentMethod_Index</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatePaymentMethod">
+                  </a> <!-- ValidatePaymentMethod -->
+                  <span class="method-name">ValidatePaymentMethod</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;iball-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0-ea&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\IBALL~1\AppData\Local\Temp\scoped_dir4560_31459}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=70.0.3538.67, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9248f94fe46468046d4af10b54d8376e
+Command duration or timeout: 0 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:406)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:485)
+	at com.init.Common.jsClick(Common.java:623)
+	at com.indexpage.ValidatePaymentMethod_GeneralindexPage.Shipping_Customernew(ValidatePaymentMethod_GeneralindexPage.java:1195)
+	at com.index.ValidatePaymentMethod_Index.ValidatePaymentMethod(ValidatePaymentMethod_Index.java:725)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	... 34 more
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;iball-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0-ea&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\IBALL~1\AppData\Local\Temp\scoped_dir4560_31459}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=70.0.3538.67, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9248f94fe46468046d4af10b54d8376e
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;IBALL-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0-ea&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:577)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy1.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:217)
+	at org.openqa.selenium.remote.server.handler.ExecuteScript.call(ExecuteScript.java:54)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Promedxpress-class-skipped -->
+        </div> <!-- panel Promedxpress -->
+        <div panel-name="test-xml-Promedxpress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Workspace\Promedxpress\build\index.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;10&quot; name=&quot;Promedxpress&quot;&gt;
+  &lt;parameter name=&quot;selenium.port&quot; value=&quot;4444&quot;/&gt;
+  &lt;parameter name=&quot;selenium.host&quot; value=&quot;localhost&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.utility.CustomReporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.utility.CustomReporterListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.utility.RetryTestListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.utility.RetryConterManagerListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test verbose=&quot;10&quot; name=&quot;TC_11: Validate Payment Method  &quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.index.ValidatePaymentMethod_Index&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ValidatePaymentMethod&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.index.ValidatePaymentMethod_Index --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_11: Validate Payment Method   --&gt;
+&lt;/suite&gt; &lt;!-- Promedxpress --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Promedxpress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Promedxpress</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TC_11: Validate Payment Method   (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Promedxpress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Promedxpress</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Promedxpress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Promedxpress</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Promedxpress');
+function tableData_Promedxpress() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ValidatePaymentMethod')
+data.setCell(0, 2, 'com.index.ValidatePaymentMethod_Index')
+data.setCell(0, 3, 521713);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ValidatePaymentMethod')
+data.setCell(1, 2, 'com.index.ValidatePaymentMethod_Index')
+data.setCell(1, 3, 505744);
+window.suiteTableData['Promedxpress']= { tableData: data, tableDiv: 'times-div-Promedxpress'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 minutes</span>
+              <div id="times-div-Promedxpress">
+              </div> <!-- times-div-Promedxpress -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Promedxpress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Promedxpress</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ValidatePaymentMethod</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><strong> <h3 style="color:#FFA500"> Test Scenario 11: Validate Payment Method[Credit Card, Paypal & Open Account]</h3> </strong></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:#FF0000"> Time and Date of Test Execution2018-10-22  17:47:28</h3> </strong></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:#FF0000"> Validate Payment Method======>Paypal</br></h3> </strong></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Step 1 : Open URL is: https://promed-dev-scripco-refapp.accorin.us/</a></h3> </strong></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> To Verify that Home Page is Displayed</br></h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Step :2 Open the Application</br></strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Welcome Msg is Displayed ====>: WELCOME TO OUR NEW SITE</h3> </strong></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output">===>Home page is opened and Logo is Matched</br></span>
+                <span class="reporter-method-output"><br><strong>Step :3 Click on I User Logo </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :4 Click on Create New Account </br></strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Verify that without filling details and click on Create New Account a Error Message Appeared</br></h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Without Entering Details and Click on Create New Account Button===>This is a required field.</strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output">===>User Cannot Create a Account without entering a Details</br></span>
+                <span class="reporter-method-output"><br><strong>Step :5 Click on I Uer Logo </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :6 Click on Create New Account </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :7 Enter the Details under Create New Account and click on create new Account </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Enter First Name :===> Paul</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Enter Last Name :===> williams</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Click on Sign Up For Newsletter Check Box</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Type the graudation date===>09/11/2015</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Type the email id ===>prashantp+9437744@accorin.com</br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Type the password ===>baps@200</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Type the same password under confirm password ===>baps@200</strong></br></span>
+                <span class="reporter-method-output"><br><strong>After filling all the details click on Create A Account</strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Show the Confirmation Message after Formed is Filled</br></h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Confirmation Message is Displayed===>Thank you for registering with ProMed Xpress Products.</br></strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output">===>Confirmation Message is Displayed</br></span>
+                <span class="reporter-method-output"><br><strong>User Name Shoud Display===>Welcome, Paul!</strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output">===>User Home Page is Appeared with the Welcome Message</br></span>
+                <span class="reporter-method-output"><br><strong>Step :8 Click on I Uer Logo </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :9 Click on Logout option </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :10 Mouse Over to Mobility in Home Page </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :11 Click on Geri_Chairs under Mobility </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :12 Click on Add to Cart Button </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :13 Click on My Cart Option </br></strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue">  Verify that the Product which has been Selected is showing under My Cart Option</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Item Selected in the Page Matches Item in the Cart : Double Sided Security Bed Rails 18"X20"</strong></br></span>
+                <span class="reporter-method-output">Converting String to Int of Original Price : 132.28</span>
+                <span class="reporter-method-output"><br><strong>=========>Converting Double to Integer<=======</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Item Selected in the Page : Double Sided Security Bed Rails 18"X20"</strong></br></span>
+                <span class="reporter-method-output">Converting String to Int of Original Price : 132.28</span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Comparing the two Items</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Item Selected and Item in My Cart Matches</strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Price Comparing</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Item Selected and Item in My Cart Price Matches</strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output">===>Product and Price Verified in My Cart</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Item Quantity Verified</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Total Quantity of Product is Displayed : 1</strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output">===>Product Item is Same as Selected</br></span>
+                <span class="reporter-method-output"><br><strong>Step :14 Click on CheckOut Option under My Cart</br></strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:#FFA500"> Filling the Shipping Information of the Customer</br></h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Step :15 Type the Shipping Address where the Customer want to Send his Order </br></strong></br></span>
+                <span class="reporter-method-output">Enter Email Id of Customer====>: prashantp+9437744@accorin.com</br></span>
+                <span class="reporter-method-output">Enter Email Id of Customer====>: baps@200</br></span>
+                <span class="reporter-method-output">Click on Login Button After entering email id and password</br></span>
+                <span class="reporter-method-output">Enter Company Name====>: testCompany</br></span>
+                <span class="reporter-method-output">Enter Street Address====>: 360 Vetarans Parkway, Suite 115</br></span>
+                <span class="reporter-method-output">Enter City name====>:Bolingbrook</br></span>
+                <span class="reporter-method-output">Select the State from the Drop Down :==> Illinois </br></span>
+                <span class="reporter-method-output">Enter the Pin Code of the State: 60440</br></span>
+                <span class="reporter-method-output">Select the Country from the Drop Down :==> United States </br></span>
+                <span class="reporter-method-output"><br><strong>Step :16 Address_Validation_PopUp </br></strong></br></span>
+                <span class="reporter-method-output">Enter the Phone Number of Customer: 123456789</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Address Validation PopUp</br></h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Clicked on : origin_address</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Click on Continue Button</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Address Pop Up Is Displayed</strong></br></span>
+                <span class="reporter-method-output">Click on Address Validation Pop Up Window</br></span>
+                <span class="reporter-method-output"><br><strong>Step :17 Select Shipping Customer </br></strong></br></span>
+                <span class="reporter-method-output">Click on Ground Standard under Choose a Shipping Option</br></br></span>
+                <span class="reporter-method-output">After Filling all the detail Click on Next Button</br></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:#FF0000"> Select the PayPal Payment Mode and Enter Valid Credentials</br></h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Step :18 Select Valid Credentials in PayPal </br></strong></br></span>
+                <span class="reporter-method-output">Click on Pay Pal Radio Button</br></span>
+                <span class="reporter-method-output">Click on continue to paypal option</br></span>
+                <span class="reporter-method-output">Login Button Found And Clicked</span>
+                <span class="reporter-method-output">Enter the Valid Paypal email id===> 31julymm@mailinator.com</br></span>
+                <span class="reporter-method-output">Enter the Valid Paypal Password===>Baps@123</br></span>
+                <span class="reporter-method-output">After entering Valid Email ID and Password Click on Login Button</span>
+                <span class="reporter-method-output">Click on Continue Button</span>
+                <span class="reporter-method-output"><br><strong>Show the Payment Method===>PayPal Express Checkout</strong></br></span>
+                <span class="reporter-method-output">===>Item is Placed and Payment is made through PayPal</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Verify that Order has been Confirmed and A message has been Displayed</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Confirmation Message is Displayed :YOUR ORDER HAS BEEN PLACED</strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output"><br><strong>Email Confirmation has Been Sent :An email confirmation is on its way to prashantp+9437744@accorin.com</strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output"><br><strong>Order Number is Displayed :Order #4000001305</strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output">===>Item is Placed and Shown in the Place</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:#FFA500"> Open Account Payment Method</h3> </strong></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Step 19 : Open URL is: https://promed-dev-scripco-refapp.accorin.us/</a></h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>To Verify that Home Page is Displayed</br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :20 Open the Application</br></strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Welcome Msg is Displayed ====>: WELCOME TO OUR NEW SITE</h3> </strong></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output">===>Home page is opened and Logo is Matched</br></span>
+                <span class="reporter-method-output"><br><strong>Step :21 Click on I User Logo </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :22 Click on Logout option </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :23 Click on I User Logo </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :24 Click on Login button under I user Icon</br></strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:#FFA500"> Open Account Validation</h3> </strong></span>
+                <span class="reporter-method-output">User should be redirected to Login Page and asked for Username and Password</span>
+                <span class="reporter-method-output"><br><strong>Step :25 User will be redirected to customer Login page</br></strong></br></span>
+                <span class="reporter-method-output">Enter the UserName=====>prashantp@accorin.com</br></span>
+                <span class="reporter-method-output">Enter the Password=====>baps@200</br></span>
+                <span class="reporter-method-output">Click on Sign In Button</span>
+                <span class="reporter-method-output"><br><strong>Step :26 Click on Pro Med Express Logo</br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :27 Mouse Over to Mobility in Home Page </br></br></strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:#FFA500"> Credit Card Validation</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Step :28 Click on Positioning under Orthopedic </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>===============>Orthopedic option will Appear under Positioning</br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :29 Click on Add to Cart Button </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>===============>Product will be added to cart</br></strong></br></span>
+                <span class="reporter-method-output">Product Selected====>Add to Cart</br></span>
+                <span class="reporter-method-output"><br><strong>Step :30 Click on My Cart Option </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>===============>User should see the Product Under My Cart</br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :31 Click on CheckOut Option under My Cart </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>===============>User should be Redirected to Shipping Address Page</br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :32 Select Shipping Customer </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>===============>User should Select the Shipping Customer</br></strong></br></span>
+                <span class="reporter-method-output"><br> <b>Please look to the screenshot - </b></span>
+                <span class="reporter-method-output"><br><Strong><font color=#FF0000>--Failed</font></strong></span>
+                <span class="reporter-method-output"><a href='../test-output/screenshots/1022175610183ValidatePaymentMethod.png' target='_new'>1022175610183ValidatePaymentMethod.png</a></span>
+                <span class="reporter-method-output"><br></br><h3>Failure Reason:</h3></span>
+                <span class="reporter-method-output"><br></br>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ValidatePaymentMethod</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><strong> <h3 style="color:#FFA500"> Test Scenario 11: Validate Payment Method[Credit Card, Paypal & Open Account]</h3> </strong></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:#FF0000"> Time and Date of Test Execution2018-10-22  17:38:39</h3> </strong></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:#FF0000"> Validate Payment Method======>Paypal</br></h3> </strong></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Step 1 : Open URL is: https://promed-dev-scripco-refapp.accorin.us/</a></h3> </strong></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> To Verify that Home Page is Displayed</br></h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Step :2 Open the Application</br></strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Welcome Msg is Displayed ====>: WELCOME TO OUR NEW SITE</h3> </strong></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output">===>Home page is opened and Logo is Matched</br></span>
+                <span class="reporter-method-output"><br><strong>Step :3 Click on I User Logo </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :4 Click on Create New Account </br></strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Verify that without filling details and click on Create New Account a Error Message Appeared</br></h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Without Entering Details and Click on Create New Account Button===>This is a required field.</strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output">===>User Cannot Create a Account without entering a Details</br></span>
+                <span class="reporter-method-output"><br><strong>Step :5 Click on I Uer Logo </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :6 Click on Create New Account </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :7 Enter the Details under Create New Account and click on create new Account </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Enter First Name :===> Paul</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Enter Last Name :===> williams</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Click on Sign Up For Newsletter Check Box</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Type the graudation date===>09/11/2015</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Type the email id ===>prashantp+9333820@accorin.com</br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Type the password ===>baps@200</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Type the same password under confirm password ===>baps@200</strong></br></span>
+                <span class="reporter-method-output"><br><strong>After filling all the details click on Create A Account</strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Show the Confirmation Message after Formed is Filled</br></h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Confirmation Message is Displayed===>Thank you for registering with ProMed Xpress Products.</br></strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output">===>Confirmation Message is Displayed</br></span>
+                <span class="reporter-method-output"><br><strong>User Name Shoud Display===>Welcome, Paul!</strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output">===>User Home Page is Appeared with the Welcome Message</br></span>
+                <span class="reporter-method-output"><br><strong>Step :8 Click on I Uer Logo </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :9 Click on Logout option </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :10 Mouse Over to Mobility in Home Page </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :11 Click on Geri_Chairs under Mobility </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :12 Click on Add to Cart Button </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :13 Click on My Cart Option </br></strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue">  Verify that the Product which has been Selected is showing under My Cart Option</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Item Selected in the Page Matches Item in the Cart : Double Sided Security Bed Rails 18"X20"</strong></br></span>
+                <span class="reporter-method-output">Converting String to Int of Original Price : 132.28</span>
+                <span class="reporter-method-output"><br><strong>=========>Converting Double to Integer<=======</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Item Selected in the Page : Double Sided Security Bed Rails 18"X20"</strong></br></span>
+                <span class="reporter-method-output">Converting String to Int of Original Price : 132.28</span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Comparing the two Items</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Item Selected and Item in My Cart Matches</strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Price Comparing</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Item Selected and Item in My Cart Price Matches</strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output">===>Product and Price Verified in My Cart</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Item Quantity Verified</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Total Quantity of Product is Displayed : 1</strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output">===>Product Item is Same as Selected</br></span>
+                <span class="reporter-method-output"><br><strong>Step :14 Click on CheckOut Option under My Cart</br></strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:#FFA500"> Filling the Shipping Information of the Customer</br></h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Step :15 Type the Shipping Address where the Customer want to Send his Order </br></strong></br></span>
+                <span class="reporter-method-output">Enter Email Id of Customer====>: prashantp+9333820@accorin.com</br></span>
+                <span class="reporter-method-output">Enter Email Id of Customer====>: baps@200</br></span>
+                <span class="reporter-method-output">Click on Login Button After entering email id and password</br></span>
+                <span class="reporter-method-output">Enter Company Name====>: testCompany</br></span>
+                <span class="reporter-method-output">Enter Street Address====>: 360 Vetarans Parkway, Suite 115</br></span>
+                <span class="reporter-method-output">Enter City name====>:Bolingbrook</br></span>
+                <span class="reporter-method-output">Select the State from the Drop Down :==> Illinois </br></span>
+                <span class="reporter-method-output">Enter the Pin Code of the State: 60440</br></span>
+                <span class="reporter-method-output">Select the Country from the Drop Down :==> United States </br></span>
+                <span class="reporter-method-output"><br><strong>Step :16 Address_Validation_PopUp </br></strong></br></span>
+                <span class="reporter-method-output">Enter the Phone Number of Customer: 123456789</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Address Validation PopUp</br></h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Clicked on : origin_address</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Click on Continue Button</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Address Pop Up Is Displayed</strong></br></span>
+                <span class="reporter-method-output">Click on Address Validation Pop Up Window</br></span>
+                <span class="reporter-method-output"><br><strong>Step :17 Select Shipping Customer </br></strong></br></span>
+                <span class="reporter-method-output">Click on Ground Standard under Choose a Shipping Option</br></br></span>
+                <span class="reporter-method-output">After Filling all the detail Click on Next Button</br></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:#FF0000"> Select the PayPal Payment Mode and Enter Valid Credentials</br></h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Step :18 Select Valid Credentials in PayPal </br></strong></br></span>
+                <span class="reporter-method-output">Click on Pay Pal Radio Button</br></span>
+                <span class="reporter-method-output">Click on continue to paypal option</br></span>
+                <span class="reporter-method-output">Login Button Found And Clicked</span>
+                <span class="reporter-method-output">Enter the Valid Paypal email id===> 31julymm@mailinator.com</br></span>
+                <span class="reporter-method-output">Enter the Valid Paypal Password===>Baps@123</br></span>
+                <span class="reporter-method-output">After entering Valid Email ID and Password Click on Login Button</span>
+                <span class="reporter-method-output">Click on Continue Button</span>
+                <span class="reporter-method-output"><br><strong>Show the Payment Method===>PayPal Express Checkout</strong></br></span>
+                <span class="reporter-method-output">===>Item is Placed and Payment is made through PayPal</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Verify that Order has been Confirmed and A message has been Displayed</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Confirmation Message is Displayed :YOUR ORDER HAS BEEN PLACED</strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output"><br><strong>Email Confirmation has Been Sent :An email confirmation is on its way to prashantp+9333820@accorin.com</strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output"><br><strong>Order Number is Displayed :Order #4000001304</strong></br></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output">===>Item is Placed and Shown in the Place</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:#FFA500"> Open Account Payment Method</h3> </strong></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Step 19 : Open URL is: https://promed-dev-scripco-refapp.accorin.us/</a></h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>To Verify that Home Page is Displayed</br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :20 Open the Application</br></strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:Blue"> Welcome Msg is Displayed ====>: WELCOME TO OUR NEW SITE</h3> </strong></span>
+                <span class="reporter-method-output"><br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong></span>
+                <span class="reporter-method-output">===>Home page is opened and Logo is Matched</br></span>
+                <span class="reporter-method-output"><br><strong>Step :21 Click on I User Logo </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :22 Click on Logout option </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :23 Click on I User Logo </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :24 Click on Login button under I user Icon</br></strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:#FFA500"> Open Account Validation</h3> </strong></span>
+                <span class="reporter-method-output">User should be redirected to Login Page and asked for Username and Password</span>
+                <span class="reporter-method-output"><br><strong>Step :25 User will be redirected to customer Login page</br></strong></br></span>
+                <span class="reporter-method-output">Enter the UserName=====>prashantp@accorin.com</br></span>
+                <span class="reporter-method-output">Enter the Password=====>baps@200</br></span>
+                <span class="reporter-method-output">Click on Sign In Button</span>
+                <span class="reporter-method-output"><br><strong>Step :26 Click on Pro Med Express Logo</br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :27 Mouse Over to Mobility in Home Page </br></br></strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:#FFA500"> Credit Card Validation</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Step :28 Click on Positioning under Orthopedic </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>===============>Orthopedic option will Appear under Positioning</br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :29 Click on Add to Cart Button </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>===============>Product will be added to cart</br></strong></br></span>
+                <span class="reporter-method-output">Product Selected====>Add to Cart</br></span>
+                <span class="reporter-method-output"><br><strong>Step :30 Click on My Cart Option </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>===============>User should see the Product Under My Cart</br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :31 Click on CheckOut Option under My Cart </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>===============>User should be Redirected to Shipping Address Page</br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step :32 Select Shipping Customer </br></strong></br></span>
+                <span class="reporter-method-output"><br><strong>===============>User should Select the Shipping Customer</br></strong></br></span>
+                <span class="reporter-method-output"><br> <b>Please look to the screenshot - </b></span>
+                <span class="reporter-method-output"><br><Strong><font color=#FF0000>--Failed</font></strong></span>
+                <span class="reporter-method-output"><a href='../test-output/screenshots/1022174705378ValidatePaymentMethod.png' target='_new'>1022174705378ValidatePaymentMethod.png</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Promedxpress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Promedxpress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.index.ValidatePaymentMethod_Index</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@12e5da86)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.index.ValidatePaymentMethod_Index.ValidatePaymentMethod() throws java.io.Unsupported...)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidatePaymentMethod</span>
+                <span class="method-start">27497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ValidatePaymentMethod status=SKIP method=ValidatePaymentMethod_Index.ValidatePaymen...)</span>
+                <span class="method-start">533245 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.index.ValidatePaymentMethod_Index.ValidatePaymentMethod() throws java.io.Unsupported...)</span>
+                <span class="method-start">540054 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidatePaymentMethod</span>
+                <span class="method-start">556335 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ValidatePaymentMethod status=FAILURE method=ValidatePaymentMethod_Index.ValidatePay...)</span>
+                <span class="method-start">1078051 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

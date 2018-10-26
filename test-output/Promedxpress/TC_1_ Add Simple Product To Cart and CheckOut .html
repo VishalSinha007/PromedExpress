@@ -1,0 +1,276 @@
+<html>
+<head>
+<title>TestNG:  TC_1: Add Simple Product To Cart and CheckOut </title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TC_1: Add Simple Product To Cart and CheckOut </h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 17 11:02:48 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>406 seconds (406825 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.index.Add_To_Cart_Index.Add_To_Cart()'><b>Add_To_Cart</b><br>Test class: com.index.Add_To_Cart_Index<br/>
+<a href="#Output-1916700921" onClick='toggleBox("Output-1916700921", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1916700921" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1916700921">
+<strong> <h3 style="color:#FFA500"> Test Scenario 1: Add Simple Product To Cart and CheckOut [CONFIGURABLE PRODUCT AND BUNDLED PRODUCT]</h3> </strong><br/>
+<strong> <h3 style="color:#FF0000"> Time and Date of Test Execution2018-10-17  11:03:01</h3> </strong><br/>
+<strong> <h3 style="color:Blue"> Step 1 : Open URL is: https://promed-dev-scripco-refapp.accorin.us/</a></h3> </strong><br/>
+<br><strong>===============>Page URL is Open<=============== </br></strong></br><br/>
+<strong> <h3 style="color:Blue"> To Verify that Home Page is Displayed</br></h3> </strong><br/>
+<br><strong>Step :2 Open the Application</br></strong></br><br/>
+<strong> <h3 style="color:Blue"> Welcome Msg is Displayed ====>: WELCOME TO OUR NEW SITE</h3> </strong><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+===>Home page is opened and Logo is Matched</br><br/>
+<br><strong>Step :3 Mouse Over to Orthopedic in Home Page </br></strong></br><br/>
+<br><strong>===============>Menu will Appear with Product list</br></strong></br><br/>
+<br><strong>Step :4 Click on Positioning under Orthopedic </br></strong></br><br/>
+<br><strong>===============>Orthopedic option will Appear under Positioning</br></strong></br><br/>
+<br><strong>Step :5 Click on Add to Cart Button </br></strong></br><br/>
+<br><strong>===============>Product will be Added to Cart</br></strong></br><br/>
+<br><strong>Step :6 Click on My Cart Option </br></strong></br><br/>
+<br><strong>===============>User should see the Product Under My Cart</br></strong></br><br/>
+<strong> <h3 style="color:Blue">  Verify that the Product which has been Selected is showing under My Cart Option</h3> </strong><br/>
+<br><strong>Item Selected in the Page Matches Item in the Cart : Foam Leg Elevating Splint, 8" - Elevated Wedge Cushion</br></br></strong></br><br/>
+Converting String to Int of Original Price : 70.59<br/>
+<br><strong>=========>Converting Double to Integer<=======</strong></br><br/>
+<br><strong>Item Selected in the Page : Foam Leg Elevating Splint, 8" - Elevated Wedge Cushion</strong></br><br/>
+Converting String to Int of Original Price : 70.59<br/>
+<strong> <h3 style="color:Blue"> Comparing the two Items</h3> </strong><br/>
+<br><strong>Item Selected and Item in My Cart Matches</strong></br><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+<strong> <h3 style="color:Blue"> Price Comparing</h3> </strong><br/>
+<br><strong>Item Selected and Item in My Cart Price Matches</strong></br><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+===>Product and Price Verified in My Cart</br><br/>
+<strong> <h3 style="color:Blue"> Item Quantity Verified</h3> </strong><br/>
+<br><strong>Total Quantity of Product is Displayed ====>: 1</strong></br><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+===>Product Item is Same as Selected</br><br/>
+<br><strong>Step :7 Click on CheckOut Option under My Cart </br></strong></br><br/>
+<br><strong>===============>User should be Redirected to Shipping Address Page</br></strong></br><br/>
+<strong> <h3 style="color:Blue"> Filling the Shipping Information of the Customer</br></h3> </strong><br/>
+<br><strong>Step :8 Type the Shipping Address where the Customer want to Send his Order </br></strong></br><br/>
+<br><strong>===============>User should fill the Address</br></strong></br><br/>
+Enter Email Id of Customer====>: prashantp+2351555@accorin.com</br><br/>
+Enter First Name of Customer====>: aa389test</br><br/>
+Enter Last Name of Customer====>: aa389test</br><br/>
+Enter Company Name====>: aa389testCompany</br><br/>
+Enter Street Address====>: 360 Vetarans Parkway, Suite 115</br><br/>
+Enter City name====>:Bolingbrook</br><br/>
+Select the State from the Drop Down :==> Illinois </br></br><br/>
+Enter the Pin Code of the State: 60440</br><br/>
+Select the Country from the Drop Down :==> United States </br></br><br/>
+<br><strong>Step :9 Address_Valiation_PopUp </br></strong></br><br/>
+<br><strong>===============>Address Validation Pop Up Should Appear</br></strong></br><br/>
+Enter the Phone Number of Customer: 123456789</br></br><br/>
+Show the Pop Up Window</br></br><br/>
+<br><strong>Clicked on : origin_address</strong></br><br/>
+<br><strong>Click on Continue Button</strong></br><br/>
+<br><strong>Address Pop Up Is Displayed</strong></br><br/>
+Click on Address Validation Pop Up Window</br></br><br/>
+<br><strong>Step :10 Select Shipping Customer </br></strong></br><br/>
+<br><strong>===============>User should Select the Shipping Customer</br></strong></br><br/>
+Click on Ground Standard under Choose a Shipping Option</br></br><br/>
+After Filling all the detail Click on Next Button</br></br><br/>
+<br><strong>Step :11 Go to Payment mode and Click on Credit Card radio button </br></strong></br><br/>
+<br><strong>===============>Credit Card option Should Appear</br></strong></br><br/>
+<br><strong>Step :12 Fill the Credit Card Details and Click on Place Order </br></strong></br><br/>
+<br><strong>===============>User should fill the Credit Cart Details</br></strong></br><br/>
+Credit Card Number===>4444333322221111</br><br/>
+Expiry Date===>04 / 2020</br><br/>
+Cvv Number===>123</br><br/>
+<strong> <h3 style="color:Blue"> Verify that Order has been Confirmed and A message has been Displayed</h3> </strong><br/>
+<br><strong>Confirmation Message is Displayed :YOUR ORDER HAS BEEN PLACED</strong></br><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+<br><strong>Email Confirmation has Been Sent :An email confirmation is on its way to prashantp+2351555@accorin.com</strong></br><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+<br><strong>Order Number is Displayed :Order #4000001276</strong></br><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+===>Item is Placed and Shown in the Place</br><br/>
+<strong> <h3 style="color:#FFA500"> Add to Cart CONFIGURABLE PRODUCT </br></br></h3> </strong><br/>
+<br><strong>Step :13 Click on BioFreeze Professional Configurable Product </br></strong></br><br/>
+<br><strong>===============>User is Redirected to Configurable Product Page</br></strong></br><br/>
+<strong> <h3 style="color:Blue"> Add Configurable Products to Cart</h3> </strong><br/>
+<br><strong>Step :14 Click on Choose Option the BioFreeze Professional Product </br></strong></br><br/>
+<br><strong>===============>User will choose Configurable Product</br></strong></br><br/>
+<br><strong>Step :15 Click on Type and Choose the Green Color </br></strong></br><br/>
+<br><strong>===============>User will choose Color type for the Product</br></strong></br><br/>
+<br><strong>Step :16 Click on Size and Choose 16 OZ GEL PUMP </br></strong></br><br/>
+<br><strong>===============>User will choose Size for the Product</br></strong></br><br/>
+<br><strong>Step :17 Click on Add to Cart Button To Add the Product to Cart</br></strong></br><br/>
+<br><strong>===============>Product will be added to Cart</br></strong></br><br/>
+<br><strong>Step :18 Click on My Cart Option </br></strong></br><br/>
+<br><strong>===============>Product will be shown under My Cart Option</br></strong></br><br/>
+<br><strong>Step :19 Click on CheckOut Option under My Cart </br></strong></br><br/>
+<br><strong>===============>User will be redirected to Shipping Page </br></strong></br><br/>
+<strong> <h3 style="color:#FF0000"> Filling the Shipping Information of the Customer</br></h3> </strong><br/>
+<br><strong>Step :20 Type the Shipping Address where the Customer want to Send his Order</br></strong></br><br/>
+<br><strong>===============>User will fill the Address Details<=============== </br></strong></br><br/>
+Enter Email Id of Customer====>: prashantp+4581067@accorin.com</br><br/>
+Enter First Name of Customer====>: aa389test</br><br/>
+Enter Last Name of Customer====>: aa389test</br><br/>
+Enter Company Name====>: aa389testCompany</br><br/>
+Enter Street Address====>: 360 Vetarans Parkway, Suite 115</br><br/>
+Enter City name====>:Bolingbrook</br><br/>
+Select the State from the Drop Down :==> Illinois </br></br><br/>
+Enter the Pin Code of the State: 60440</br><br/>
+Select the Country from the Drop Down :==> United States </br></br><br/>
+<br><strong>Step :21 Address_Valiation_PopUp </br></strong></br><br/>
+<br><strong>===============>Address Validation Pop up should Appear<=============== </br></strong></br><br/>
+Enter the Phone Number of Customer: 123456789</br></br><br/>
+Show the Pop Up Window</br></br><br/>
+<br><strong>Clicked on : origin_address</strong></br><br/>
+<br><strong>Click on Continue Button</strong></br><br/>
+<br><strong>Address Pop Up Is Displayed</strong></br><br/>
+Click on Address Validation Pop Up Window</br></br><br/>
+<br><strong>Step :22 Select Shipping Customer </br></strong></br><br/>
+<br><strong>===============>Shipping Customer should be selected</br></strong></br><br/>
+Click on Ground Standard under Choose a Shipping Option</br></br><br/>
+After Filling all the detail Click on Next Button</br></br><br/>
+<br><strong>Step :23 Go to Payment mode and Click on Credit Card radio button </br></strong></br><br/>
+<br><strong>===============>Credit Card Payment Option will Apppear</br></strong></br><br/>
+<strong> <h3 style="color:#FF0000"> Filling the Credit Card Details of the Customer</br></h3> </strong><br/>
+<br><strong>Step :24 Fill the Credit Card Details and Click on Place Order </br></strong></br><br/>
+<br><strong>===============>User will Fill the Credit Card Details and Click on Next</br></strong></br><br/>
+Credit Card Number===>4444333322221111</br><br/>
+Expiry Date===>04 / 2020</br><br/>
+Cvv Number===>123</br><br/>
+<strong> <h3 style="color:Blue"> Verify that Order has been Confirmed and A message has been Displayed</h3> </strong><br/>
+<br><strong>Confirmation Message is Displayed :YOUR ORDER HAS BEEN PLACED</strong></br><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+<br><strong>Email Confirmation has Been Sent :An email confirmation is on its way to prashantp+4581067@accorin.com</strong></br><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+<br><strong>Order Number is Displayed :Order #4000001277</strong></br><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+===>Item is Placed and Shown in the Place</br><br/>
+<strong> <h3 style="color:#FFA500"> Bundle product Scenario </br></h3> </strong><br/>
+<br><strong>Step :25 Click on Search Box and Find the Bundled Product in It</br></strong></br><br/>
+<br><strong>===============>User will be redirected to Bundle Product Page</br></strong></br><br/>
+<strong> <h3 style="color:Blue"> Add Bundled Products in Cart</h3> </strong><br/>
+<br><strong>Step :26 Click on Bundle Product </br></strong></br><br/>
+<br><strong>===============>User will be redirected to Bundle Product Page</br></strong></br><br/>
+<br><strong>Step :27 Click on the color for Bundle Product </br></strong></br><br/>
+<br><strong>===============>User will choose different color under bundle product</br></strong></br><br/>
+<br><strong>Step :28 Click on Add to Cart Button To Add the Product to Cart</br></strong></br><br/>
+<br><strong>===============>User will See the Product has been Added under My Cart</br></strong></br><br/>
+<br><strong>Step :29 Click on My Cart Option</br></strong></br><br/>
+<br><strong>===============>User will see the Same Product under My Cart</br></strong></br><br/>
+<br><strong>Step :30 Click on CheckOut Option under My Cart </br></strong></br><br/>
+<br><strong>===============>User will be redirected to Shipping Address Page</br></strong></br><br/>
+<strong> <h3 style="color:#FF0000"> Filling the Shipping Information of the Customer</br></h3> </strong><br/>
+<br><strong>Step :31 Type the Shipping Address where the Customer want to Send his Order </br></strong></br><br/>
+<br><strong>===============>User should fill the Shipping Address where they want to send the Product</br></strong></br><br/>
+Enter Email Id of Customer====>: prashantp+0065400@accorin.com</br><br/>
+Enter First Name of Customer====>: aa389test</br><br/>
+Enter Last Name of Customer====>: aa389test</br><br/>
+Enter Company Name====>: aa389testCompany</br><br/>
+Enter Street Address====>: 360 Vetarans Parkway, Suite 115</br><br/>
+Enter City name====>:Bolingbrook</br><br/>
+Select the State from the Drop Down :==> Illinois </br></br><br/>
+Enter the Pin Code of the State: 60440</br><br/>
+Select the Country from the Drop Down :==> United States </br></br><br/>
+<br><strong>Step :32 Address_Valiation_PopUp </br></strong></br><br/>
+<br><strong>===============>Address Validation Pop Up should Appear</br></strong></br><br/>
+Enter the Phone Number of Customer: 123456789</br></br><br/>
+Show the Pop Up Window</br></br><br/>
+<br><strong>Clicked on : origin_address</strong></br><br/>
+<br><strong>Click on Continue Button</strong></br><br/>
+<br><strong>Address Pop Up Is Displayed</strong></br><br/>
+Click on Address Validation Pop Up Window</br></br><br/>
+<strong> <h3 style="color:#FFA500"> Select Shipping Customer</br></h3> </strong><br/>
+<br><strong>Step :33 Select Shipping Customer </br></strong></br><br/>
+<br><strong>===============>User should select Shipping Customer</br></strong></br><br/>
+Click on Ground Standard under Choose a Shipping Option</br></br><br/>
+After Filling all the detail Click on Next Button</br></br><br/>
+<br><strong>Step :34 Go to Payment mode and Click on Credit Card radio button </br></strong></br><br/>
+<br><strong>===============>User will see credit Card menu</br></strong></br><br/>
+<strong> <h3 style="color:#FFA500"> Filling the Credit Card Details of the Customer</br></h3> </strong><br/>
+<br><strong>Step :35 Fill the Credit Card Details and Click on Place Order </br></strong></br><br/>
+<br><strong>===============>User will fill the Credit Card Details</br></strong></br><br/>
+Credit Card Number===>4444333322221111</br><br/>
+Expiry Date===>04 / 2020</br><br/>
+Cvv Number===>123</br><br/>
+<strong> <h3 style="color:Blue"> Verify that Order has been Confirmed and A message has been Displayed</h3> </strong><br/>
+<br><strong>Confirmation Message is Displayed :YOUR ORDER HAS BEEN PLACED</strong></br><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+<br><strong>Email Confirmation has Been Sent :An email confirmation is on its way to prashantp+0065400@accorin.com</strong></br><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+<br><strong>Order Number is Displayed :Order #4000001279</strong></br><br/>
+<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong><br/>
+===>Item is Placed and Shown in the Place</br><br/>
+</div>
+</td>
+<td></td>
+<td>377</td>
+<td>com.index.Add_To_Cart_Index@52525845</td></tr>
+</table><p>
+</body>
+</html>

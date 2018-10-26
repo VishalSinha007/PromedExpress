@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Promedxpress" verbose="10" parallel="tests" 
+	thread-count="1">
+
+	<!-- Put IP of localhost/Grid Hub machine -->
+	<parameter name="selenium.host" value="localhost" />
+
+	<!-- Put Port of localhost RC/Grid Hub machine -->
+	<parameter name="selenium.port" value="4444" />
+
+	<!-- Put target browser name as below: 1) Firefox : firefox 2) chrome : 
+		chrome 3) IExplorer : ie8 / ie9 -->
+		
+<!-- 	<parameter name="selenium.browser" value="chrome" /> -->
+
+	<!-- <parameter name="selenium.url"
+		value="https://promedxpress-qa.scripco.com/" /> -->
+		
+<listeners>
+  <listener class-name="com.utility.CustomReporter" />
+  <listener class-name="com.utility.CustomReporterListener" />
+  <listener class-name="com.utility.RetryTestListener" />
+  <listener class-name="com.utility.RetryConterManagerListener" />
+ <!--  <listener class-name="com.testReport.utility.CustomReporterTestpassDetails" />
+  <listener class-name="com.testReport.utility.CustomReporterTestskipDetails" />
+  <listener class-name="com.testReport.utility.CustomReporterBuildSummary" /> -->
+ </listeners>
+
+<!-- 
+	  <test name="TC_1: Add Simple Product To Cart and CheckOut ">
+		
+		<classes>
+			<class name="com.index.Add_To_Cart_Index">
+				<methods>
+					<include name="Add_To_Cart" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="TC_2: Checkout as guest">
+		
+			<classes>
+				<class name="com.index.Checkout_as_Guest_Index">
+					<methods>
+						<include name="Check_out_as_guest" />
+					</methods>
+				</class>
+			</classes>
+		</test>
+
+
+	<test name="TC_3: Checkout logged In">
+		
+			<classes>
+				<class name="com.index.Checkoutloggedin_Index">
+					<methods>
+						<include name="CheckoutloggedIn" />
+					</methods>
+				</class>
+			</classes>
+		</test>
+		
+		
+	<test name="TC_4: Checkout and create account">
+
+			
+			<classes>
+				<class name="com.index.CheckOutandCreateAccount_Index">
+					<methods>
+						<include name="CheckOutandCreateAccount" />
+					</methods>
+				</class>
+			</classes>
+		</test>	
+		  
+		
+	<test name="TC_5: Checkout exception processes">
+
+			
+			<classes>
+				<class name="com.index.Checkoutexceptionprocesses_Index">
+					<methods>
+						<include name="Checkoutexceptionprocesses" />
+					</methods>
+				</class>
+			</classes>
+		</test>		
+		
+		
+	<test name="TC_6: My orders scenario ">
+
+			
+			<classes>
+				<class name="com.index.MyordersScenario_Index">
+					<methods>
+						<include name="MyordersScenario" />
+					</methods>
+				</class>
+			</classes>
+		</test>		
+		
+		
+	<test name="TC_7: Add to cart subpanel scenario  ">
+
+			
+			<classes>
+				<class name="com.index.AddtoCartDeleteIncreaseDecreaseProduct_Index">
+					<methods>
+						<include name="AddtoCartDeleteIncreaseDecreaseProduct" />
+					</methods>
+				</class>
+			</classes>
+		</test>		
+		
+		
+	<test name="TC_8: Account information scenarios  ">
+
+			
+			<classes>
+				<class name="com.index.AccountInformationScenario_Index">
+					<methods>
+						<include name="AccountInformationScenario" />
+					</methods>
+				</class>
+			</classes>
+		</test>			
+		
+		
+		
+		<test name="TC_9: My Payment Data scenarios ">
+
+			
+			<classes>
+				<class name="com.index.MyPaymentData_Index">
+					<methods>
+						<include name="MyPaymentData" />
+					</methods>
+				</class>
+			</classes>
+		</test>
+		
+		
+	<test name="TC_10: Add to Wishlist scenario  ">
+
+			
+			<classes>
+				<class name="com.index.AddtoWishlist_Index">
+					<methods>
+						<include name="AddtoWishlist" />
+					</methods>
+				</class>
+			</classes>
+		</test>	
+		
+		 -->
+		
+		<test name="TC_11: Validate Payment Method  ">
+			<classes>
+				<class name="com.index.ValidatePaymentMethod_Index">
+					<methods>
+						<include name="ValidatePaymentMethod" />
+					</methods>
+				</class>
+			</classes>
+		</test>	
+		
+		
+		<!-- <test name="TC_12: Validate Tax Amount  ">
+			<classes>
+				<class name="com.index.ValidateTax_Index">
+					<methods>
+						<include name="ValidateTax" />
+					</methods>
+				</class>
+			</classes>
+		</test>	
+		 -->
+		
+		
+</suite>
