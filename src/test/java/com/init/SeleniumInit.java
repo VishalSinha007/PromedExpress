@@ -71,6 +71,10 @@ import com.verification.ValidateTax_GeneralVerification;;
 		public static String osName = "";
 		public static String browserVersion = "";
 		public static String browsernm = "";
+		
+		public static final String USERNAME = "vishalsinha5";
+		public static final String AUTOMATE_KEY = "mQznrAvzR5TjFCyYpzqR";
+		public static final String URL1 = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
 		public Add_To_Cart_GeneralIndexpage addtocartgeneralIndexpage;
 		public AddToCart_GeneralVerification addtocartgeneralVerification;
@@ -164,6 +168,19 @@ import com.verification.ValidateTax_GeneralVerification;;
 
 			test_data_folder_path = new File(TESTDATA_FOLDER_NAME).getAbsolutePath();
 			screenshot_folder_path = new File(SCREENSHOT_FOLDER_NAME).getAbsolutePath();
+			
+
+			  DesiredCapabilities caps = new DesiredCapabilities();
+			  caps.setCapability("browser", "Chrome");
+			  caps.setCapability("browser_version", "61.0");
+			  caps.setCapability("os", "Windows");
+			  caps.setCapability("os_version", "8");
+			  caps.setCapability("resolution", "1024x768");
+			  
+			  WebDriver driver = new RemoteWebDriver(new URL(URL1), caps);
+			  driver.get(testUrl);
+			  
+			  
 
 			DesiredCapabilities capability = null;
 			if (targetBrowser == null || targetBrowser.contains("firefox")) {
@@ -289,6 +306,8 @@ import com.verification.ValidateTax_GeneralVerification;;
 				//driver = new ChromeDriver();
 				
 				driver = new RemoteWebDriver(remote_grid, capability);
+				
+				
 				
 			} else if (targetBrowser.contains("safari")) {
 

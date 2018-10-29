@@ -1181,7 +1181,7 @@ public ValidatePaymentMethod_GeneralVerification PayPalpaymentMode(){
 		public ValidatePaymentMethod_GeneralVerification Shipping_Customernew(){
 			
 			
-			Common.pause(2);
+			Common.pause(4);
 			Common.refresh(driver);
 			
 			Common.pause(7);

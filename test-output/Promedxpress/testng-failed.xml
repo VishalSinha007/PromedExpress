@@ -9,16 +9,16 @@
     <listener class-name="com.utility.RetryTestListener"/>
     <listener class-name="com.utility.RetryConterManagerListener"/>
   </listeners>
-  <test verbose="10" name="TC_11: Validate Payment Method  (failed)">
+  <test verbose="10" name="TC_2: Checkout as guest(failed)">
     <classes>
-      <class name="com.index.ValidatePaymentMethod_Index">
+      <class name="com.index.Checkout_as_Guest_Index">
         <methods>
-          <include name="ValidatePaymentMethod"/>
+          <include name="Check_out_as_guest"/>
           <include name="fetchSuiteConfiguration"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.index.ValidatePaymentMethod_Index -->
+      </class> <!-- com.index.Checkout_as_Guest_Index -->
     </classes>
-  </test> <!-- TC_11: Validate Payment Method  (failed) -->
+  </test> <!-- TC_2: Checkout as guest(failed) -->
 </suite> <!-- Failed suite [Promedxpress] -->

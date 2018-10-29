@@ -37,7 +37,7 @@
 				</methods>
 			</class>
 		</classes>
-	</test>
+	</test> -->
 	
 	<test name="TC_2: Checkout as guest">
 		
@@ -51,7 +51,7 @@
 		</test>
 
 
-	<test name="TC_3: Checkout logged In">
+	<!-- <test name="TC_3: Checkout logged In">
 		
 			<classes>
 				<class name="com.index.Checkoutloggedin_Index">
@@ -154,7 +154,7 @@
 			</classes>
 		</test>	
 		
-		 -->
+		
 		
 		<test name="TC_11: Validate Payment Method  ">
 			<classes>
@@ -165,7 +165,7 @@
 				</class>
 			</classes>
 		</test>	
-		
+		 -->
 		
 		<!-- <test name="TC_12: Validate Tax Amount  ">
 			<classes>
