@@ -169,17 +169,7 @@ import com.verification.ValidateTax_GeneralVerification;;
 			test_data_folder_path = new File(TESTDATA_FOLDER_NAME).getAbsolutePath();
 			screenshot_folder_path = new File(SCREENSHOT_FOLDER_NAME).getAbsolutePath();
 			
-
-			  DesiredCapabilities caps = new DesiredCapabilities();
-			  caps.setCapability("browser", "Chrome");
-			  caps.setCapability("browser_version", "61.0");
-			  caps.setCapability("os", "Windows");
-			  caps.setCapability("os_version", "8");
-			  caps.setCapability("resolution", "1024x768");
-			  
-			  WebDriver driver = new RemoteWebDriver(new URL(URL1), caps);
-			  driver.get(testUrl);
-			  
+			 
 			  
 
 			DesiredCapabilities capability = null;
@@ -280,8 +270,24 @@ import com.verification.ValidateTax_GeneralVerification;;
 				ChromeOptions options = new ChromeOptions();
 				//options.setCapability("addCustomRequestHeaders", "authorization: Basic c2NyaXBjbzphY2Nvcmlu");
 			
-				capability = DesiredCapabilities.chrome();
-				System.setProperty("webdriver.chrome.driver", "lib/chromedriver.exe");
+				//capability = DesiredCapabilities.chrome();
+				//System.setProperty("webdriver.chrome.driver", "lib/chromedriver.exe");
+				
+				
+				
+				DesiredCapabilities caps = new DesiredCapabilities();
+				  caps.setCapability("browser", "Chrome");
+				  caps.setCapability("browser_version", "61.0");
+				  caps.setCapability("os", "Windows");
+				  caps.setCapability("os_version", "8");
+				  caps.setCapability("resolution", "1024x768");
+				  caps.setCapability("browserstack.selenium_version", "2.53.1");
+				//  caps.setCapability("browserstack.local", "true");
+				  
+				  driver = new RemoteWebDriver(new URL(URL1), caps);
+				  driver.get(testUrl);
+				  
+				  
 				
 			//	@SuppressWarnings("unused")
 				File chromeDriver;
@@ -292,20 +298,20 @@ import com.verification.ValidateTax_GeneralVerification;;
 					 chromeDriver = new File("/lib/chromedriver.exe");
 				}
 				
-				System.setProperty("webdriver.chrome.driver",
+			/*	System.setProperty("webdriver.chrome.driver",
 					     chromeDriver.getAbsolutePath());
 				options.addArguments("disable-geolocation");
 				capability.setCapability(ChromeOptions.CAPABILITY, options);
 				capability.setBrowserName("chrome");
-				capability.setJavascriptEnabled(true);
-				browserName = capability.getVersion();
-				osName = capability.getPlatform().name();
-				browserVersion = capability.getVersion();
+				capability.setJavascriptEnabled(true);*/
+			/*	browserName = caps.getVersion();
+				osName = caps.getPlatform().name();
+				browserVersion = caps.getVersion();*/
 				
 			    
 				//driver = new ChromeDriver();
 				
-				driver = new RemoteWebDriver(remote_grid, capability);
+				//driver = new RemoteWebDriver(remote_grid, capability);
 				
 				
 				
