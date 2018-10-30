@@ -81,8 +81,8 @@ import com.verification.ValidateTax_GeneralVerification;;
 		public static String browserVersion = "";
 		public static String browsernm = "";
 		
-		public static final String USERNAME = "vishalsinha5";
-		public static final String AUTOMATE_KEY = "mQznrAvzR5TjFCyYpzqR";
+		public static final String USERNAME = "vishal524";
+		public static final String AUTOMATE_KEY = "sqLpZKG3syEvbJoeBwEn";
 		public static final String URL1 = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
 		public Add_To_Cart_GeneralIndexpage addtocartgeneralIndexpage;
@@ -305,6 +305,7 @@ import com.verification.ValidateTax_GeneralVerification;;
 				  driver = new RemoteWebDriver(new URL(URL1), caps);
 				  driver.get(testUrl);
 				  
+				  ((RemoteWebDriver)driver).getSessionId().toString();
 				
 				  
 				
@@ -563,7 +564,7 @@ import com.verification.ValidateTax_GeneralVerification;;
 
 		public static void mark() throws URISyntaxException, UnsupportedEncodingException, IOException {
 			
-			 URI uri = new URI("curl -u vishalsinha5:mQznrAvzR5TjFCyYpzqR https://api.browserstack.com/automate/builds/b470e4f905c78511200cc7e764f9d7c4f5415174/sessions/<session-id>.json");
+			 URI uri = new URI("https://vishal524:sqLpZKG3syEvbJoeBwEn@api.browserstack.com/automate/sessions/<session-id>.json");
 			HttpPut putRequest = new HttpPut(uri);
 
 			ArrayList<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
