@@ -5,7 +5,7 @@
       <![CDATA[<strong> <h3 style="color:#FFA500"> Test Scenario 2 : Checkout As Guest</h3> </strong>]]>
     </line>
     <line>
-      <![CDATA[<strong> <h3 style="color:#FF0000"> Time and Date of Test Execution2018-10-29  19:12:17</h3> </strong>]]>
+      <![CDATA[<strong> <h3 style="color:#FF0000"> Time and Date of Test Execution2018-10-30  11:50:33</h3> </strong>]]>
     </line>
     <line>
       <![CDATA[<strong> <h3 style="color:Blue"> Step 1 : Open URL is: https://promed-dev-scripco-refapp.accorin.us/</a></h3> </strong>]]>
@@ -98,16 +98,16 @@
       <![CDATA[<br><strong>Step :8 Type the Shipping Address where the Customer want to Send his Order </br></br></strong></br>]]>
     </line>
     <line>
-      <![CDATA[Enter Email Id of Customer====>: prashantp+2778373@accorin.com</br>]]>
+      <![CDATA[Enter Email Id of Customer====>: prashantp+4430135@accorin.com</br>]]>
     </line>
     <line>
-      <![CDATA[Enter First Name of Customer====>: aa521test</br>]]>
+      <![CDATA[Enter First Name of Customer====>: aa62test</br>]]>
     </line>
     <line>
-      <![CDATA[Enter Last Name of Customer====>: aa521test</br>]]>
+      <![CDATA[Enter Last Name of Customer====>: aa62test</br>]]>
     </line>
     <line>
-      <![CDATA[Enter Company Name====>: aa521testCompany</br>]]>
+      <![CDATA[Enter Company Name====>: aa62testCompany</br>]]>
     </line>
     <line>
       <![CDATA[Enter Street Address====>: 360 Vetarans Parkway, Suite 115</br>]]>
@@ -179,13 +179,13 @@
       <![CDATA[<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br><strong>Email Confirmation has Been Sent :An email confirmation is on its way to prashantp+2778373@accorin.com</strong></br>]]>
+      <![CDATA[<br><strong>Email Confirmation has Been Sent :An email confirmation is on its way to prashantp+4430135@accorin.com</strong></br>]]>
     </line>
     <line>
       <![CDATA[<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br><strong>Order Number is Displayed :Order #4000001313</strong></br>]]>
+      <![CDATA[<br><strong>Order Number is Displayed :Order #4000001322</strong></br>]]>
     </line>
     <line>
       <![CDATA[<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong>]]>
@@ -194,23 +194,23 @@
       <![CDATA[===>Item is Placed and Shown in the Place</br>]]>
     </line>
   </reporter-output>
-  <suite name="Promedxpress" duration-ms="209141" started-at="2018-10-29T13:42:00Z" finished-at="2018-10-29T13:45:30Z">
+  <suite name="Promedxpress" duration-ms="219530" started-at="2018-10-30T06:20:08Z" finished-at="2018-10-30T06:23:47Z">
     <groups>
     </groups>
-    <test name="TC_2: Checkout as guest" duration-ms="209141" started-at="2018-10-29T13:42:00Z" finished-at="2018-10-29T13:45:30Z">
+    <test name="TC_2: Checkout as guest" duration-ms="219530" started-at="2018-10-30T06:20:08Z" finished-at="2018-10-30T06:23:47Z">
       <class name="com.index.Checkout_as_Guest_Index">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.index.Checkout_as_Guest_Index@52525845]" name="fetchSuiteConfiguration" is-config="true" duration-ms="21" started-at="2018-10-29T19:12:00Z" finished-at="2018-10-29T19:12:01Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.index.Checkout_as_Guest_Index@15bfd87]" name="fetchSuiteConfiguration" is-config="true" duration-ms="24" started-at="2018-10-30T11:50:08Z" finished-at="2018-10-30T11:50:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@180e6ac4]]>
+                <![CDATA[org.testng.TestRunner@625e134e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.Checkout_as_Guest_Index@52525845]" name="setUp" is-config="true" duration-ms="16372" started-at="2018-10-29T19:12:01Z" finished-at="2018-10-29T19:12:17Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.Checkout_as_Guest_Index@15bfd87]" name="setUp" is-config="true" duration-ms="25330" started-at="2018-10-30T11:50:08Z" finished-at="2018-10-30T11:50:33Z">
           <params>
             <param index="0">
               <value>
@@ -219,20 +219,20 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@180e6ac4]]>
+                <![CDATA[org.testng.TestRunner@625e134e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Check_out_as_guest()[pri:1, instance:com.index.Checkout_as_Guest_Index@52525845]" name="Check_out_as_guest" duration-ms="168973" started-at="2018-10-29T19:12:17Z" finished-at="2018-10-29T19:15:06Z">
+        <test-method status="PASS" signature="Check_out_as_guest()[pri:1, instance:com.index.Checkout_as_Guest_Index@15bfd87]" name="Check_out_as_guest" duration-ms="170426" started-at="2018-10-30T11:50:33Z" finished-at="2018-10-30T11:53:23Z">
           <reporter-output>
             <line>
               <![CDATA[<strong> <h3 style="color:#FFA500"> Test Scenario 2 : Checkout As Guest</h3> </strong>]]>
             </line>
             <line>
-              <![CDATA[<strong> <h3 style="color:#FF0000"> Time and Date of Test Execution2018-10-29  19:12:17</h3> </strong>]]>
+              <![CDATA[<strong> <h3 style="color:#FF0000"> Time and Date of Test Execution2018-10-30  11:50:33</h3> </strong>]]>
             </line>
             <line>
               <![CDATA[<strong> <h3 style="color:Blue"> Step 1 : Open URL is: https://promed-dev-scripco-refapp.accorin.us/</a></h3> </strong>]]>
@@ -325,16 +325,16 @@
               <![CDATA[<br><strong>Step :8 Type the Shipping Address where the Customer want to Send his Order </br></br></strong></br>]]>
             </line>
             <line>
-              <![CDATA[Enter Email Id of Customer====>: prashantp+2778373@accorin.com</br>]]>
+              <![CDATA[Enter Email Id of Customer====>: prashantp+4430135@accorin.com</br>]]>
             </line>
             <line>
-              <![CDATA[Enter First Name of Customer====>: aa521test</br>]]>
+              <![CDATA[Enter First Name of Customer====>: aa62test</br>]]>
             </line>
             <line>
-              <![CDATA[Enter Last Name of Customer====>: aa521test</br>]]>
+              <![CDATA[Enter Last Name of Customer====>: aa62test</br>]]>
             </line>
             <line>
-              <![CDATA[Enter Company Name====>: aa521testCompany</br>]]>
+              <![CDATA[Enter Company Name====>: aa62testCompany</br>]]>
             </line>
             <line>
               <![CDATA[Enter Street Address====>: 360 Vetarans Parkway, Suite 115</br>]]>
@@ -406,13 +406,13 @@
               <![CDATA[<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong>]]>
             </line>
             <line>
-              <![CDATA[<br><strong>Email Confirmation has Been Sent :An email confirmation is on its way to prashantp+2778373@accorin.com</strong></br>]]>
+              <![CDATA[<br><strong>Email Confirmation has Been Sent :An email confirmation is on its way to prashantp+4430135@accorin.com</strong></br>]]>
             </line>
             <line>
               <![CDATA[<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong>]]>
             </line>
             <line>
-              <![CDATA[<br><strong>Order Number is Displayed :Order #4000001313</strong></br>]]>
+              <![CDATA[<br><strong>Order Number is Displayed :Order #4000001322</strong></br>]]>
             </line>
             <line>
               <![CDATA[<br></br> <Strong><font color=#008000><b> &#10004 PASS</b></font></strong>]]>
@@ -422,11 +422,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- Check_out_as_guest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.Checkout_as_Guest_Index@52525845]" name="tearDown" is-config="true" duration-ms="23758" started-at="2018-10-29T19:15:06Z" finished-at="2018-10-29T19:15:30Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.Checkout_as_Guest_Index@15bfd87]" name="tearDown" is-config="true" duration-ms="23730" started-at="2018-10-30T11:53:23Z" finished-at="2018-10-30T11:53:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Check_out_as_guest status=SUCCESS method=Checkout_as_Guest_Index.Check_out_as_guest()[pri:1, instance:com.index.Checkout_as_Guest_Index@52525845] output=<strong> <h3 style="color:#FFA500"> Test Scenario 2 : Checkout As Guest</h3> </strong>]]]>
+                <![CDATA[[TestResult name=Check_out_as_guest status=SUCCESS method=Checkout_as_Guest_Index.Check_out_as_guest()[pri:1, instance:com.index.Checkout_as_Guest_Index@15bfd87] output=<strong> <h3 style="color:#FFA500"> Test Scenario 2 : Checkout As Guest</h3> </strong>]]]>
               </value>
             </param>
           </params>

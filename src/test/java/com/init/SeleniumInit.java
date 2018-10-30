@@ -3,8 +3,11 @@ package com.init;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Method;
+import java.net.HttpURLConnection;
+import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -12,6 +15,12 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
+
+import org.apache.http.NameValuePair;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpPut;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.http.message.BasicNameValuePair;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 //import org.openqa.selenium.chrome.ChromeDriver;
@@ -282,11 +291,21 @@ import com.verification.ValidateTax_GeneralVerification;;
 				  caps.setCapability("os_version", "8");
 				  caps.setCapability("resolution", "1024x768");
 				  caps.setCapability("browserstack.selenium_version", "2.53.1");
-				//  caps.setCapability("browserstack.local", "true");
+				  caps.setCapability("browserstack.debug", "true");
+				  caps.setCapability("project", "Accorin");
+				  caps.setCapability("build","");
+				  caps.setCapability("browserstack.local", "false");
+				  caps.setCapability("browserstack.console", "info");
+				  caps.setCapability("browserstack.timezone", "US");
+			      caps.setCapability("name", testContext.getName());
+			      
+			      
+			      
 				  
 				  driver = new RemoteWebDriver(new URL(URL1), caps);
 				  driver.get(testUrl);
 				  
+				
 				  
 				
 			//	@SuppressWarnings("unused")
@@ -312,6 +331,9 @@ import com.verification.ValidateTax_GeneralVerification;;
 				//driver = new ChromeDriver();
 				
 				//driver = new RemoteWebDriver(remote_grid, capability);
+				
+				
+				
 				
 				
 				
@@ -538,6 +560,25 @@ import com.verification.ValidateTax_GeneralVerification;;
 			    Common.makeScreenshot(driver, screenshotName);
 			}
 		}
+
+		public static void mark() throws URISyntaxException, UnsupportedEncodingException, IOException {
+			
+			 URI uri = new URI("curl -u vishalsinha5:mQznrAvzR5TjFCyYpzqR https://api.browserstack.com/automate/builds/b470e4f905c78511200cc7e764f9d7c4f5415174/sessions/<session-id>.json");
+			HttpPut putRequest = new HttpPut(uri);
+
+			ArrayList<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
+			try {
+				nameValuePairs.add((new BasicNameValuePair("status", "Pass")));
+				nameValuePairs.add((new BasicNameValuePair("reason", "Test Case Executed Successfully")));
+				putRequest.setEntity(new UrlEncodedFormEntity(nameValuePairs));
+			} catch (Exception e) {
+				nameValuePairs.add((new BasicNameValuePair("status", "Fail")));
+				nameValuePairs.add((new BasicNameValuePair("reason", "Test Case Failed")));
+				putRequest.setEntity(new UrlEncodedFormEntity(nameValuePairs));
+			}
+
+			HttpClientBuilder.create().build().execute(putRequest);
+			}		
 	}
 
 	
